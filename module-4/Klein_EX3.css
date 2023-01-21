@@ -1,0 +1,108 @@
+/*
+  Abigail Klein
+  Module 4.3 Assignment
+  January 22, 2023
+*/
+
+/* All CSS styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+img{
+  max-width: 100%;
+}
+
+body{
+
+}
+
+
+h1{
+  text-align: center;
+  font-family: Oswald, Verdana, Arial, sans-sans-serif;
+}
+
+h3{
+  font-weight: 500;
+}
+
+ol{
+  border: 1px solid red;
+  border-radius: 15px;
+
+  padding: 10px;
+  list-style-position: inside;
+}
+
+ul{
+  border: 1px dashed red;
+  border-radius: 15px;
+
+  padding: 10px;
+  list-style: upper-roman;
+  list-style-position: inside;
+}
+
+li{
+  font-weight: 300;
+}
+
+
+.left{
+  float: left;
+  width: 45%;
+  font-family: Oswald, Verdana, Arial, sans-sans-serif;
+}
+.right{
+  float: right;
+  width: 45%;
+  font-family: Oswald, Verdana, Arial, sans-sans-serif;
+}
+.bottom{
+  width: 100%;
+  margin-top: 60%;
+  margin-bottom: 20px;
+  float: right;
+}
+
+
+/*address link*/
+a:link{
+  font-family: Oswald, Verdana, Arial, sans-sans-serif;
+  text-decoration: none;
+}
+a:visited{
+
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+/*sentence class*/
+.sentence{
+  font-style: italic;
+}
+
+/*intro class*/
+.intro{
+  text-indent: 2em;
+}
+
+
+/*new type of code to help with responsive design*/
+/*In plain terms, it says "when the screen is a minium width, activate these style
+rules." The rules follow inside of the curly brackets like any other CSS*/
+@media screen and (min-width: 768px){
+
+
+  }
+@media screen and (min-width: 1024px){
+
+
+  }
+}
