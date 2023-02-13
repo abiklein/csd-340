@@ -1,0 +1,130 @@
+/*
+  Abigail Klein
+  Module 7.2 Assignment
+  February 3, 2023
+*/
+
+/* All CSS styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap');
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+img{
+  max-width: 100%;
+}
+
+header{
+  background-color: skyblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1{
+  font-weight: 400;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  background-color: skyblue;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-title{
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  font-weight: 400;
+}
+.card-content{
+  padding: 2px 16px;
+}
+
+ol, ol a{
+  text-decoration: none;
+  color: navy;
+}
+
+ol a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+ol a:visited{
+  color: rgb(70, 108, 243);
+}
+
+#container{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+#navbar{
+  overflow: hidden;
+  background: navy;
+  border-bottom: solid 15px white;
+}
+
+
+body{
+  font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+footer{
+  float: right;
+  padding-right: 10px;
+  font-weight: 400;
+  font-style: italic;
+  background-color: skyblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p{
+  color: white;
+  font-weight: bold;
+  float: right;
+  padding-right: 10px;
+  font-style: italic;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+/*address link*/
+#navbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover{
+  background-color: blue;
+  color: skyblue;
+}
+
+/*new type of code to help with responsive design*/
+/*In plain terms, it says "when the screen is a minium width, activate these style
+rules." The rules follow inside of the curly brackets like any other CSS*/
+@media screen and (min-width: 768px){
+
+
+  }
+@media screen and (min-width: 1024px){
+
+
+  }
