@@ -1,0 +1,173 @@
+/*
+  Abigail Klein
+  Module 12 Assignment MyBio
+  March 4, 2023
+*/
+
+/* All CSS styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap');
+html{
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(to right,#e5d2b7, #b89c82);
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+h1, h2, h3{
+  text-align: center;
+  font-weight: 400;
+  color: #fbf6cb;
+}
+h2{
+  text-align: left;
+  color: #212013;
+}
+h3{
+  font-size: 25px;
+  color: #45301399;
+  font-weight: 200;
+}
+p{
+  font-weight: 300;
+  color: #45301399;
+}
+
+
+/*Profile Section*/
+.profile{
+  font-size: 40px;
+}
+#profPic{
+  left: 30%;
+  max-width: 40%;
+  position: relative;
+  box-shadow: 0 5px 5px 0 #45301399;
+  border-radius: 50%;
+}
+
+/*#hobbies and #experiences*/
+.section{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 0;
+}
+.sectionHead{
+  bottom: 0;
+  margin-left: 5%;
+}
+.sectionHead h2{
+  color: #9f6c40;
+  font-size: 60px;
+}
+#hobbies, #experiences{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+.card{
+  border: solid #e5d2b7;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 0px 10px;
+}
+.card:hover{
+  background: #fbf6cb40;
+}
+.card:hover p{
+  color: #453013;
+}
+.card:hover h3{
+  font-weight: 700;
+}
+
+/*Images*/
+img{
+  max-width: 100%;
+}
+figcaption{
+  color: #45301399;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+/*Contact Form*/
+.contact{
+  margin: 10%;
+  border-radius: 15px;
+  background: #fbf6cb99;
+}
+
+.contact h3{
+  color: #453013;
+  font-weight: 400;
+}
+form{
+  margin: 10%;
+  font-weight: 300;
+  color: #453013;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #453013;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #fbf6cb;
+  color: #453013;
+}
+
+
+/*Navigation*/
+.toTopLink{
+  margin: 10%;
+  text-align: left;
+}
+
+/*address link*/
+a:link{
+  text-decoration: none;
+  color: teal;
+  font-weight: 400;
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+a:visited{
+  text-decoration: none;
+  color: teal;
+  opacity: 55%;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+/*new type of code to help with responsive design*/
+/*In plain terms, it says "when the screen is a minium width, activate these style
+rules." The rules follow inside of the curly brackets like any other CSS*/
+@media screen and (min-width: 768px){
+
+
+  }
+@media screen and (min-width: 1024px){
+
+
+  }
+
+/*References
+https://www.w3schools.com/css/css_form.asp
+https://stackoverflow.com/questions/32408997/changing-color-of-text-in-div-on-hover-css
+*/
